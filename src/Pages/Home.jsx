@@ -25,7 +25,7 @@ const Home = () => {
                                 /></b></Text>
                         </Flex>
                         <Text color='#ffffff'>MERN Stack Developer</Text>
-                        <a href="https://drive.google.com/drive/u/1/folders/1lipj74g2l77s0oQZeRY8pElSnh4NPBXv" target='_blank'><Button size={{ base: 'sm', md: 'md', lg: 'lg' }} mt={{ base: '10px', md: '0' }} colorScheme='teal'>Resume</Button></a>
+                        <a href="https://drive.google.com/drive/u/1/folders/1lipj74g2l77s0oQZeRY8pElSnh4NPBXv" ><Button size={{ base: 'sm', md: 'md', lg: 'lg' }} mt={{ base: '10px', md: '0' }} colorScheme='teal'>Resume</Button></a>
                     </Box>
 
                     <Box>
