@@ -61,79 +61,79 @@ export const AutoPlay =()=> {
                     <Slider {...settings} style={Theme === 'light' ? light : dark}>
                         <div style={{ display: "flex", width: "50px", height: '150px' }} >
                             <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5}  >
-                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/html5.png' />
+                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/SkillsImage/html5.png' />
                                 <Text mt={{ base: '10px', lg: '15px' }}>HTML5</Text>
                             </Box>
                         </div>
                         <div style={{ display: "flex", width: "50px", height: '150px' }} >
                             <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5}  >
-                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/css3.png' />
+                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/SkillsImage/css3.png' />
                                 <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>CSS3</Text>
                             </Box>
                         </div>
                         <div style={{ display: "flex", width: "50px", height: '150px' }} >
                             <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
-                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/javascript.png' />
+                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/SkillsImage/javascript.png' />
                                 <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>JavaScript</Text>
                             </Box>
                         </div>
                         <div style={{ display: "flex", width: "50px", height: '150px' }} >
                             <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
-                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/react.png' />
+                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/SkillsImage/react.png' />
                                 <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>React.Js</Text>
                             </Box>
                         </div>
                         <div style={{ display: "flex", width: "50px", height: '150px' }} >
                             <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
-                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/redux.png' />
+                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/SkillsImage/redux.png' />
                                 <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>Redux</Text>
                             </Box>
                         </div>
                         <div style={{ display: "flex", width: "50px", height: '150px' }} >
                             <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
-                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/npm.png' />
+                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/SkillsImage/npm.png' />
                                 <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>NPM</Text>
                             </Box>
                         </div>
                         <div style={{ display: "flex", width: "50px", height: '150px' }} >
                             <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
-                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/node-js.png' />
+                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/SkillsImage/node-js.png' />
                                 <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>Node.Js</Text>
                             </Box>
                         </div>
                         <div style={{ display: "flex", width: "50px", height: '150px' }} >
                             <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
-                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/mongodb.png' />
+                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/SkillsImage/mongodb.png' />
                                 <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>Mongodb</Text>
                             </Box>
                         </div>
                         <div style={{ display: "flex", width: "50px", height: '150px' }} >
                             <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
-                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='express.png' />
+                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/SkillsImage/express.png' />
                                 <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>Express</Text>
                             </Box>
                         </div>
                         <div style={{ display: "flex", width: "50px", height: '150px' }} >
                             <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
-                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/typescript.png' />
+                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/SkillsImage/typescript.png' />
                                 <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>TypeScript</Text>
                             </Box>
                         </div>
                         <div style={{ display: "flex", width: "50px", height: '150px' }} >
                             <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
-                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/github.png' />
+                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/SkillsImage/github.png' />
                                 <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>GitHub</Text>
                             </Box>
                         </div>
                         <div style={{ display: "flex", width: "50px", height: '150px' }} >
                             <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
-                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/git.png' />
+                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/SkillsImage/git.png' />
                                 <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>Git</Text>
                             </Box>
                         </div>
                         <div style={{ display: "flex", width: "50px", height: '150px' }} >
                             <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
-                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/postman.png' />
+                                <Image w={{ base: '45px', md: '80px', lg: '80px' }} src='/SkillsImage/postman.png' />
                                 <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>Postman</Text>
                             </Box>
                         </div>
