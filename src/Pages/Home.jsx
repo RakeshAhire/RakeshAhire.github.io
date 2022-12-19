@@ -1,5 +1,6 @@
 import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
-import Typical from 'react-typical'
+import Typical from 'react-typical';
+import { VscCloudDownload } from "react-icons/vsc";
 const Home = () => {
     return (
         <><Box height={{base :'40px', md : '60px'}}></Box>
@@ -25,9 +26,8 @@ const Home = () => {
                                 /></b></Text>
                         </Flex>
                         <Text color='#ffffff'>MERN Stack Developer</Text>
-                        <a href="https://drive.google.com/drive/u/1/folders/1lipj74g2l77s0oQZeRY8pElSnh4NPBXv" ><Button size={{ base: 'sm', md: 'md', lg: 'lg' }} mt={{ base: '10px', md: '0' }} colorScheme='teal'>Resume</Button></a>
+                        <a href="https://drive.google.com/uc?export=download&id=1kKDwK-fEVuPdj0KaFLB3lJrEAHrLJk40" ><Button size={{ base: 'sm', md: 'md', lg: 'lg' }} mt={{ base: '10px', md: '0' }} colorScheme='teal' gap={1.5}>Resume <VscCloudDownload color="white"  /></Button></a>
                     </Box>
-
                     <Box>
                         <Image src='https://avatars.githubusercontent.com/u/103639464?v=4' shadow='lg' mt={{ base: '10px', md: '0px' }} w={{ base: '150px', md: '200px', lg: '350px' }} borderRadius='50%' alt="Rakesh Ahire" />
                     </Box>

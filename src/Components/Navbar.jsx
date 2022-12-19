@@ -48,7 +48,7 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
               <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>
               <Text onClick={ProjectsRef} cursor='pointer'>Project</Text>
               <Text onClick={ContactRef} cursor='pointer'>Contact</Text>
-              <a href="https://drive.google.com/file/d/1XAf4Biiec2Pdo0m7ZTM6Dn-4M6BkCxzj/view?usp=sharing" target='_blank'><Text>Resume</Text> </a>
+              <a href="https://drive.google.com/file/d/1kKDwK-fEVuPdj0KaFLB3lJrEAHrLJk40/view?usp=share_link" target='_blank'><Text>Resume</Text> </a>
             </Flex>
           </Flex>
           <Box width='5%' justifyContent={'center'} display='flex'>
@@ -63,7 +63,7 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
               <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>
               <Text onClick={ProjectsRef} cursor='pointer'>Project</Text>
               <Text onClick={ContactRef} cursor='pointer'>Contact</Text>
-              <a href="https://drive.google.com/file/d/1XAf4Biiec2Pdo0m7ZTM6Dn-4M6BkCxzj/view?usp=sharing" target='_blank'><Text cursor='pointer'>Resume</Text></a>
+              <a href="https://drive.google.com/file/d/1kKDwK-fEVuPdj0KaFLB3lJrEAHrLJk40/view?usp=share_link" target='_blank'><Text cursor='pointer'>Resume</Text></a>
             </Stack>
           </Box>
         ) : null}

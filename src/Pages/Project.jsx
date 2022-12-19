@@ -28,17 +28,17 @@ const Project = () => {
                                     TECH STACK
                                 </Badge>
                                 <Box display={{ base: "grid", sm: "grid", lg: "flex" }} gridTemplateColumns="repeat(2,1fr)" gap={1} >
-                                    <Box color='gray.500' fontWeight='semibold' letterSpacing='wide' fontSize={{ base: 'xs', md: 'sm', lg: 'sm' }} textTransform='uppercase' ml='2'  >
-                                        HTML
+                                <Box color='gray.500' fontWeight='semibold' letterSpacing='wide' fontSize={{ base: 'xs', md: 'sm', lg: 'sm' }} textTransform='uppercase' ml='2' >
+                                      React
                                     </Box>
                                     <Box color='gray.500' fontWeight='semibold' letterSpacing='wide' fontSize={{ base: 'xs', md: 'sm', lg: 'sm' }} textTransform='uppercase' ml='2'  >
-                                        CSS
+                                       Redux
+                                    </Box>
+                                    <Box color='gray.500' fontWeight='semibold' letterSpacing='wide' fontSize={{ base: 'xs', md: 'sm', lg: 'sm' }} textTransform='uppercase' ml='2'  >
+                                        Chakra Ui
                                     </Box>
                                     <Box color='gray.500' fontWeight='semibold' letterSpacing='wide' fontSize={{ base: 'xs', md: 'sm', lg: 'sm' }} textTransform='uppercase' ml='2' >
-                                        JAVA-Script
-                                    </Box>
-                                    <Box color='gray.500' fontWeight='semibold' letterSpacing='wide' fontSize={{ base: 'xs', md: 'sm', lg: 'sm' }} textTransform='uppercase' ml='2' >
-                                        BOOT strap
+                                        React-router-dom
                                     </Box>
                                 </Box>
                             </Box>
@@ -90,8 +90,10 @@ const Project = () => {
                 {/* {third} */}
                 <Fade left>
                     <Box w={"100%"} borderWidth='1px' borderRadius='lg' overflow='hidden' backgroundColor={"white"} mb={10} >
-                        <Image w='full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsYWoQIj4S37bMrdOk66DzLfO5CBmemLpNpg&usqp=CAU" alt="" />
+                        <Image w='full' src="/Projects/Bigbasket.png" alt="Bigbasket" />
                         <Box p='6'>
+                        <Text fontWeight="bold" fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}>Bigbasket</Text>
+                            <Box fontSize={{ base: 'sm', md: 'md', lg: 'md' }} h={{lg:'80px'}} mb={{lg:6}}>The best online grocery store in India. bigbasket is an online supermarket for all your daily needs.It Provides customer to vegitable,grocery and more through one place. </Box>
                             <Box display={{ base: "column", sm: "column", lg: "flex" }} alignItems='baseline' >
                                 <Badge borderRadius='full' px='2' colorScheme='teal'>
                                     TECH STACK
@@ -113,17 +115,20 @@ const Project = () => {
                             </Box>
                         </Box>
                         <Flex gap={10} alignItems="center" mb={5} ml={7}>
-                            <TfiGithub size={35} />
-                            <GrDeploy size={30} />
+                        <a href="https://github.com/RakeshAhire/thin-thumb-2475" target="_blank"> <TfiGithub size={35} /></a>
+                            <a href='https://thin-thumb-2475.vercel.app' target="_blank"><GrDeploy size={30} /></a>
                         </Flex>
                     </Box>
                 </Fade>
 
                 {/* {fourth} */}
+                
                 <Fade right>
-                    <Box w={"100%"} borderWidth='1px' borderRadius='lg' overflow='hidden' backgroundColor={"white"} mb={10} >
-                        <Image w='full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsYWoQIj4S37bMrdOk66DzLfO5CBmemLpNpg&usqp=CAU" alt="" />
+                <Box w={"100%"} borderWidth='1px' borderRadius='lg' overflow='hidden' backgroundColor={"white"} mb={10} >
+                        <Image w='full' src="/Projects/PharmEasy.png" alt="PharmEasy" />
                         <Box p='6'>
+                        <Text fontWeight="bold" fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}>PharmEasy</Text>
+                            <Box fontSize={{ base: 'sm', md: 'md', lg: 'md' }} h={{lg:'80px'}} mb={{lg:6}}>PharmEasy is help you take it easy! PharmEasy is one of India's most trusted online pharmacy & medical stores offering 1 lakh+ pharmaceutical and healthcare products and Lab test. </Box>
                             <Box display={{ base: "column", sm: "column", lg: "flex" }} alignItems='baseline' >
                                 <Badge borderRadius='full' px='2' colorScheme='teal'>
                                     TECH STACK
@@ -138,15 +143,12 @@ const Project = () => {
                                     <Box color='gray.500' fontWeight='semibold' letterSpacing='wide' fontSize='xs' textTransform='uppercase' ml='2' >
                                         JAVA-Script
                                     </Box>
-                                    <Box color='gray.500' fontWeight='semibold' letterSpacing='wide' fontSize='xs' textTransform='uppercase' ml='2' >
-                                        BOOT strap
-                                    </Box>
                                 </Box>
                             </Box>
                         </Box>
                         <Flex gap={10} alignItems="center" mb={5} ml={7}>
-                            <TfiGithub size={35} />
-                            <GrDeploy size={30} />
+                        <a href="https://github.com/RakeshAhire/pharmeasy-unit-2-" target="_blank"> <TfiGithub size={35} /></a>
+                            <a href='https://delicate-hotteok-7a4631.netlify.app' target="_blank"><GrDeploy size={30} /></a>
                         </Flex>
                     </Box>
                 </Fade>
